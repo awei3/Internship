@@ -1,0 +1,19 @@
+[workspace]
+authors = ["Alex <awei06@syr.edu>"]
+channels = ["conda-forge"]
+name = "internship-project"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.8.*"
+click = ">=8.1,<8.1.4"
+loguru = ">=0.7.2"
+tqdm = ">=4.67.3,<5"
+
+[pypi-dependencies]
+zenml = "==0.74.0"
+typing-extensions = "*"
+setuptools = ">=70,<81"

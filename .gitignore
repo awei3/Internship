@@ -1,0 +1,14 @@
+# Pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Local environment files
+.env
+.env.*
+
+# VS Code settings
+.vscode/
